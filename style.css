@@ -1,0 +1,444 @@
+.header{
+    top: 0;
+    width: 1280px;
+    position: fixed;
+}
+
+body{
+    background-image: url(wall.jpg);
+    background-size: cover;
+}
+
+.Active{
+    font-family: Namaku;
+}
+
+.lele{
+    top: 13px;
+}
+.ips{
+    font-family: Namaku;
+}
+
+.gg{
+    border-radius: 13px;
+}
+/* kode css navigator */
+
+ul{
+    list-style: none;
+    background-color: lemonchiffon;
+    padding: 0px 0px;
+    margin-top: 125px;
+    position: fixed;
+    width: 1280px;
+    height: 60px;
+
+}
+
+.Active {
+    padding: 15px;
+    transition: transform .2s; 
+  }
+  
+  .Active:hover {
+    transform: scale(1.1); 
+  }
+
+  
+  ul li{
+      display: inline-block;
+      position: relative;
+      height: 40px;
+      padding: 7px;
+  }
+
+
+/*  kode css sidebar */
+.column{
+    float: left;
+    padding: 0px 10px;
+    font-family: Namaku;
+    color: rgb(92, 112, 154);
+}
+
+/* left column */
+.column.side{
+    margin: 170px 0px;
+    width: 360px;
+    height: 400px;
+    background-color: lightcyan;
+    border-radius: 10px; 
+    border: 14px solid lemonchiffon; 
+  
+    
+}
+
+/* kode css middle bar */
+.column.middle{
+    margin: 170px -80px;
+    margin-right: 0px;
+    width: 1280px;
+    height: 400px;
+    background-color: lightpink;
+    border-radius: 10px; 
+    border: 14px solid lemonchiffon; 
+    font-family: Nexa;
+    text-align: justify;
+    color: rgb(115, 87, 90);
+    font-size: 20px;
+   
+}
+
+/* kode untuk footer */
+.footer{
+    width: 1280px;
+    position: fixed;
+    margin: 530px 0px;
+}
+
+.isi{
+    display: flex;
+  
+}
+
+li{
+    float: left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: rgb(148, 144, 108);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+    background-color: lightblue;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(180, 185, 229);
+    width: 160px;
+    box-shadow: 0px 8px 16px lightgreen;
+    z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    color: rgb(40, 111, 133);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: Namaku;
+}
+.dropdown-content a:hover{
+    background-color: rgb(194, 214, 231);
+}
+
+
+@font-face {
+    font-family:"Namaku" ;
+    src: url(Namaku.ttf);
+}
+
+@font-face {
+    font-family:"Nexa" ;
+    src: url(Nexa-Heavy.ttf);
+}
+
+.wef{
+    border-radius: 9px;
+    border: 6px solid lightblue;
+}
+
+.text-box p{
+    margin: 180px 0px;
+    width: 1170px;
+    height: 550px;
+    margin-left: 28px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    background-color: rgb(238, 205, 255);
+    border-radius: 11px; 
+    border: 10px solid rgb(133, 85, 144); 
+    font-family: Nexa;
+    text-align: justify;
+    color: rgb(115, 87, 90);
+    font-size: 17px;
+    line-height: 1.6;
+    padding: 7px;
+    box-shadow: 0px 8px 16px rgb(47, 54, 47);
+}
+p.w{
+    height: 370px;
+    margin-bottom: 60px;
+    background-color: rgb(238, 205, 255);
+    border-radius: 11px; 
+    border: 10px solid rgb(133, 85, 144); 
+    font-family: Nexa;
+    text-align: justify;
+    color: rgb(115, 87, 90);
+    font-size: 17px;
+    line-height: 1.6; 
+    box-shadow: 0px 8px 16px rgb(47, 54, 47);
+}
+
+h1{
+margin: 10px 0px;
+margin-bottom: 4px;
+text-align: center;
+font-family: Nexa;
+background-color: rgb(242, 227, 241);
+width:300px;
+color: rgb(90, 67, 112);
+margin-left: 470px;
+box-shadow: 0px 8px 16px rgb(47, 54, 47);
+}
+
+p.jawaban{
+    text-indent: 50px;
+    height: 306px;
+    margin-bottom: 70px;
+}
+
+.ia{
+    height: 200px;
+    border: 10px solid rgb(139, 189, 200); 
+    margin-top: 190px;
+    margin-bottom: 10px;
+}
+.ie{
+    height: 200px;
+    border: 10px solid rgb(139, 189, 200); 
+    margin-top: 190px;
+    margin-bottom: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+p.kerkel{
+    width: 200px;
+    height: 50px;
+    border-radius: 11px; 
+    border: 5px solid rgb(187, 225, 196); 
+    font-family: Nexa;
+    text-align: center;
+    color: rgb(139, 104, 181);
+    font-size: 30px;
+}
+
+.gio{
+    height:150px;
+    margin-left:0px ;
+    float: left;
+    margin-right: 6px;
+}
+
+.sumber{
+    margin-top: 10px ;
+    margin-left: 5px;
+}
+
+h3{
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 1px solid lightpink;
+    font-family: Nexa;
+    width: 270px;
+    text-align: center;
+    margin-left: 26px;
+    box-shadow: 0px 8px 16px rgb(47, 54, 47);
+}
+
+p.ta{
+    width: 400px;
+    height: 50px;
+    border-radius: 11px; 
+    border: 5px solid rgb(187, 225, 196); 
+    font-family: Nexa;
+    text-align: center;
+    color: rgb(139, 104, 181);
+    font-size: 30px;
+}
+p.tujuan{
+    height: 400px;
+}
+p.contoh{
+    width: 400px;
+    height: 350px;
+    border-radius: 11px; 
+    border: 10px solid rgb(175, 246, 241); 
+    background-color: rgb(243, 224, 253);
+    font-family: Nexa;
+    text-align: justify;
+    color: rgb(115, 87, 90);
+    font-size: 20px;
+    padding: 4px;
+}
+
+p.two{
+    width: 400px;
+    height: 450px;
+    border-radius: 11px; 
+    border: 10px solid rgb(175, 246, 241); 
+    background-color: rgb(243, 224, 253);
+    font-family: Nexa;
+    text-align: justify;
+    color: rgb(115, 87, 90);
+    font-size: 20px;
+    padding: 4px;
+    
+}
+
+.flex{
+    display: flex;
+    
+}
+
+p.tree{
+    width: 400px;
+    height: 450px;
+    border-radius: 11px; 
+    border: 10px solid rgb(175, 246, 241); 
+    background-color: rgb(243, 224, 253);
+    font-family: Nexa;
+    text-align: justify;
+    color: rgb(115, 87, 90);
+    font-size: 20px;
+    padding: 4px;
+}
+
+.sat{
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 1px solid lightpink;
+    font-family: Nexa;
+    width: 270px;
+    text-align: center;
+    margin-left: 146px;
+}
+
+.du{
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 1px solid lightpink;
+    font-family: Nexa;
+    width: 270px;
+    text-align: center;
+    margin-left: 146px;
+}
+
+p.perbe{
+    height: 400px;
+    margin-bottom: 80px;
+}
+
+p.hubker{
+    height: 490px;
+    margin-bottom: 70px;
+}
+
+p.hubhub{
+    width: 600px;
+    height: 50px;
+    border-radius: 11px; 
+    border: 5px solid rgb(187, 225, 196); 
+    font-family: Nexa;
+    text-align: center;
+    color: rgb(139, 104, 181);
+    font-size: 30px;
+}
+
+p.agit{
+    height: 590px;
+}
+
+.siss{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 1180px;
+    height: 780px;
+    background-color: rgb(255, 235, 185);
+    border-radius: 10px; 
+    border: 14px solid lemonchiffon; 
+    font-family: Nexa;
+    text-align: justify;
+    color: rgb(115, 87, 90);
+    font-size: 12px;
+    padding: 5px;
+    box-shadow: 0px 8px 16px rgb(47, 54, 47);
+}
+
+.swi{
+height: 200px;
+border: 10px solid rgb(139, 189, 200); 
+margin-top: 190px;
+margin-bottom: 0px;
+
+}
+
+.swi:hover{
+    box-shadow: 0px 8px 16px rgb(47, 54, 47);
+    transform: scale(1.1); 
+}
+
+img.sumber{
+    padding: 0px;
+        margin-bottom: 100px;
+}
+
+p.sddg{
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.below{
+    height: 200px;
+    border: 10px solid rgb(139, 189, 200); 
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.water{
+    height: 200px;
+    border: 10px solid rgb(139, 189, 200); 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.so{
+    background-color: lightpink;
+    border: 5px solid rgb(238, 144, 146);
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+    font-family: Nexa;
+    color: rgb(148, 104, 104);
+    cursor: pointer;
+}
+
+.tombol{
+    margin-top: 170px;
+    height: 110px;
+    margin-right: 1000px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
